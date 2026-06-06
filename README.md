@@ -12,7 +12,7 @@ Experienced in working independently while meeting deadlines and delivering prec
 
 ---
 
-## 🛠 Core Skills
+## Core Skills
 
 - Data Annotation & AI Evaluation
 - Analytical Reasoning & Pattern Recognition
@@ -91,7 +91,7 @@ Experienced in working independently while meeting deadlines and delivering prec
 - 📧 Email: markeita.townsend@waldenu.edu  
 - 📍 Location: Fort Wayne, Indiana, USA  
 - 🔗 LinkedIn: https://linkedin.com/in/markeita-townsend-18110a220  
-- 🌐 Portfolio: https://markeitatown.github.io/Markeita-Townsend-Portfolio/
+- 🌐 Portfolio Website: [View My Portfolio](https://markeitatown.github.io/Markeita-Townsend-Portfolio/)
 
 ---
 
