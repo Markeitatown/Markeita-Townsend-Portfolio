@@ -86,7 +86,7 @@ cross-cultural communication skills.)
 - 📧 Email: markeita.townsend@waldenu.edu  
 - 📍 Location: Fort Wayne, Indiana, USA  
 - 🔗 LinkedIn: https://linkedin.com/in/markeita-townsend-18110a220  
-- 🌐 Portfolio Website: https://yourwebsite.com
+- 🌐 Portfolio Website: [View My Portfolio](https://markeitatown.github.io/Markeita-Townsend-Portfolio/)
 ---
 
 ## 📄 Classical CV
