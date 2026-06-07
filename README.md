@@ -1,6 +1,6 @@
 # Markeita Townsend Portfolio
 
-This portfolio highlights the professional experience, academic background, and technical skills of Markeita Townsend — an AI Data Specialist, Research Contributor, and Game Development Contributor with expertise in data analysis, AI evaluation, research validation, healthcare analytics, and digital asset development using modern game engines.
+This portfolio highlights the professional experience, academic background, and technical skills of Markeita Townsend an AI Data Specialist, Research Contributor, and Game Development Contributor with expertise in data analysis, AI evaluation, research validation, healthcare analytics, and digital asset development using modern game engines.
 
 ---
 
