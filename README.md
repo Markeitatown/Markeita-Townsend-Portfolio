@@ -90,7 +90,7 @@ Experienced in working independently while meeting deadlines and delivering prec
 
 - 📧 Email: markeita.townsend@waldenu.edu  
 - 📍 Location: Fort Wayne, Indiana, USA  
-- 🔗 LinkedIn: https://linkedin.com/in/markeita-townsend-18110a220  
+- 🔗 LinkedIn: [View My Linkedin](https://linkedin.com/in/markeita-townsend-18110a220/)  
 - 🌐 Portfolio Website: [View My Portfolio](https://markeitatown.github.io/Markeita-Townsend-Portfolio/)
 
 ---
