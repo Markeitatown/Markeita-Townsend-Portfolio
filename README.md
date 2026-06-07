@@ -97,5 +97,6 @@ Experienced in working independently while meeting deadlines and delivering prec
 
 ## 📄 Curriculum Vitae
 
-- **Download My CV:** (Markeita_Townsend_CV.pdf/Markeita_Townsend.pdf)
+- 📄 **Download My CV:** [Markeita Townsend CV](Markeita_Townsend_CV.pdf/Markeita_Townsend.pdf)
+
 ---
