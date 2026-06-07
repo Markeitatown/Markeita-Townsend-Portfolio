@@ -5,13 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Markeita Townsend Portfolio</title>
 
-  <style>
+<style>
 body{
   font-family: Arial, sans-serif;
   margin:0;
   background:#0f172a;
   color:white;
   line-height:1.6;
+  -webkit-font-smoothing:antialiased;
 }
 
 /* HEADER */
@@ -30,7 +31,7 @@ header{
   color:white;
 
   border-radius:25px;
-  box-shadow:0 10px 25px rgba(0,0,0,0.2);
+  box-shadow:0 10px 25px rgba(0,0,0,0.25);
 
   box-sizing:border-box;
 }
@@ -47,11 +48,16 @@ header{
 .profile-img{
   width:150px;
   height:150px;
-  border-radius:70%;
+  border-radius:50%;
   object-fit:cover;
   object-position:center;
   border:4px solid #38bdf8;
   flex-shrink:0;
+  transition:0.3s ease;
+}
+
+.profile-img:hover{
+  transform:scale(1.05);
 }
 
 /* TEXT BLOCK */
@@ -60,12 +66,14 @@ header{
   flex-direction:column;
   justify-content:center;
   max-width:500px;
+  text-align:left;
 }
 
 .header-text h1{
   margin:0;
   font-size:42px;
   line-height:1.2;
+  letter-spacing:0.5px;
 }
 
 .header-text p{
@@ -85,14 +93,16 @@ header{
   white-space:nowrap;
 }
 
-/* GENERAL LINKS */
+/* LINKS STYLE */
 a{
   color:#38bdf8;
   text-decoration:none;
   font-weight:500;
+  transition:0.3s ease;
 }
 
 a:hover{
+  color:#7dd3fc;
   text-decoration:underline;
 }
 
@@ -108,6 +118,7 @@ h2{
   border-left:4px solid #38bdf8;
   padding-left:10px;
   margin-bottom:20px;
+  font-size:26px;
 }
 
 /* PROJECT GRID */
@@ -122,16 +133,21 @@ h2{
   background:#1e293b;
   padding:15px;
   border-radius:12px;
-  transition:0.3s;
+  transition:0.3s ease;
+  border:1px solid transparent;
 }
 
 .card:hover{
-  transform:translateY(-5px);
+  transform:translateY(-6px);
   background:#263449;
+  border:1px solid #38bdf8;
+  box-shadow:0 10px 25px rgba(56,189,248,0.15);
 }
 
 .card img{
   width:100%;
+  height:180px;
+  object-fit:cover;
   border-radius:10px;
   margin-bottom:10px;
 }
@@ -143,6 +159,25 @@ h2{
 .card p{
   color:#cbd5e1;
   font-size:16px;
+}
+
+/* FEATURED CARD */
+.featured{
+  border:2px solid #38bdf8;
+  position:relative;
+}
+
+.featured::before{
+  content:"FEATURED PROJECT";
+  position:absolute;
+  top:-10px;
+  left:15px;
+  background:#38bdf8;
+  color:#0f172a;
+  font-size:12px;
+  padding:4px 10px;
+  border-radius:6px;
+  font-weight:bold;
 }
 
 /* ABOUT BOX */
@@ -179,6 +214,7 @@ footer{
   border-radius:25px;
   margin:10px;
   box-shadow:0 10px 25px rgba(0,0,0,0.2);
+  font-size:14px;
 }
 </style>
 
@@ -215,12 +251,19 @@ footer{
   <h2>Professional Summary</h2>
 
   <div class="about">
-    <p>
-      Detail-oriented AI Data Specialist and Research Contributor with experience
-      in data analysis, AI evaluation, quality assurance, research, and digital
-      asset development. Skilled at identifying patterns, validating information,
-      and producing high-quality results using structured analytical methods.
-    </p>
+    
+   <p>
+     Detail-oriented AI Data Specialist, Research Contributor, and Game Development Contributor with experience in data analysis, AI evaluation, structured research, and digital asset development.
+   </p>
+
+   <p>
+    Skilled in identifying patterns, validating information, and producing high-quality outputs using structured analytical methods across healthcare, research, and digital environments.
+   </p>
+
+   <p>
+    Hands-on experience with game development tools including Godot Engine and Solar2D, used for building, structuring, and refining digital assets and interactive environments.
+   </p>
+
   </div>
 </section>
 
@@ -234,10 +277,10 @@ footer{
       <li>Data Visualization & Reporting</li>
       <li>Quality Assurance</li>
       <li>Godot Engine</li>
+      <li>Solar2D</li>
       <li>Game Asset Development</li>
       <li>Digital Asset Creation & Refinement</li>
-      <li>Git & GitHub</li>
-      <li>Critical Thinking & Problem Solving</li>
+      <li>Scene Design & Workflow Structuring</li>
     </ul>
   </div>
 </section>
@@ -265,12 +308,13 @@ footer{
       <p>Conducting structured research and validating information using reliable methods.</p>
     </div>
 
-    <div class="card">
-      <img src="images/Game Asset Development.avif" alt="Game asset development in Godot Engine">
-      <h3>Game Asset Development (Godot)</h3>
-      <p>Designed and refined 2D/3D digital assets using Godot Engine, including scene building,
-        asset structuring, and visual workflow optimization for interactive environments.
-      </p>
+    <div class="card featured">
+    <img src="images/Game Asset Development.avif" alt="Godot Game Asset Development">
+    <h3>Game Asset Development (Godot Engine)</h3>
+    <p>
+      Designed and structured 2D/3D game assets using Godot Engine. Focused on scene building,
+      asset organization, and interactive environment design with attention to workflow efficiency and visual consistency.
+     </p>
     </div>
 
     <div class="card">
@@ -288,15 +332,15 @@ footer{
   <div class="about">
     <h3>Community Health Improvement Director</h3>
     <p><strong>Parkview Health</strong> | Nov 2024 – Present</p>
-    <p>Analyze datasets and reports to identify trends and insights, evaluate program effectiveness, and support data-driven decisions.</p>
+    <p>Analyzed healthcare datasets, identified trends, and supported data-driven decision-making.</p>
 
     <h3>Case Manager</h3>
     <p><strong>Strive Health</strong> | Mar 2023 – Oct 2024</p>
-    <p>Conducted detailed assessments, maintained data accuracy, and reviewed cases using structured evaluation guidelines.</p>
+    <p>Maintained data accuracy, conducted structured assessments, and supported reporting workflows.</p>
 
     <h3>Director of Community Outreach</h3>
     <p><strong>Granny's House Inc</strong> | Mar 2015 – Mar 2023</p>
-    <p>Collected and analyzed community data, designed reporting systems, and managed large-scale information processing.</p>
+    <p>Collected and analyzed community data and supported structured reporting systems.</p>
   </div>
 </section>
 
@@ -335,8 +379,8 @@ footer{
   </div>
 </section>
 
-<footer>
-  © 2026 Markeita Townsend | AI Data Specialist & GIS Analyst | Built with HTML & CSS
+<footer style="font-size:14px; opacity:0.8;">
+  © 2026 Markeita Townsend | AI Data Specialist • Game Development Contributor | Built with HTML & CSS
 </footer>
 
 </body>
