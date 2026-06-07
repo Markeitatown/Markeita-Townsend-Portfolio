@@ -129,11 +129,10 @@ Additional hands-on experience in game development tools including **Godot Engin
 ## Contact
 
 - Email: markeita.townsend@waldenu.edu  
-- LinkedIn: https://linkedin.com/in/markeita-townsend-18110a220  
-- Portfolio: https://markeitatown.github.io/Markeita-Townsend-Portfolio/  
-
+- 🔗 LinkedIn: [View My LinkedIn](https://linkedin.com/in/markeita-townsend-18110a220/)
+- 🌐 Portfolio Website: [View My Portfolio](https://markeitatown.github.io/Markeita-Townsend-Portfolio/)
 ---
 
 ## CV
 
-Download: Markeita Townsend CV (Markeita_Townsend_CV.pdf)
+- 📄 **Download My CV:** [Markeita Townsend CV](Markeita_Townsend_CV.pdf/Markeita_Townsend.pdf)
