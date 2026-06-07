@@ -6,144 +6,204 @@
   <title>Markeita Townsend Portfolio</title>
 
   <style>
-    body{
-      font-family: Arial, sans-serif;
-      margin:0;
-      background:#0f172a;
-      color:white;
-      line-height:1.6;
-    }
+body{
+  font-family: Arial, sans-serif;
+  margin:0;
+  background:#0f172a;
+  color:white;
+  line-height:1.6;
+}
 
-    header{
-      text-align:center;
-      padding:70px 20px;
-      background:#1e293b;
-      color:white;
-      border-radius: 25px;
-      margin: 20px;
-      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
-    }
+/* HEADER */
+header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  gap:20px;
 
-    h1{
-      font-size:52px;
-      margin-bottom:10px;
-    }
+  padding:30px;
+  margin:20px auto;
+  max-width:1100px;
 
-    header p{
-      font-size:18px;
-      color:#cbd5e1;
-      margin:5px 0;
-    }
+  background:#1e293b;
+  color:white;
 
-    section{
-      padding:50px 20px;
-      max-width:1100px;
-      margin:auto;
-    }
+  border-radius:25px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.2);
 
-    h2{
-      border-left:4px solid #38bdf8;
-      padding-left:10px;
-      margin-bottom:20px;
-    }
+  box-sizing:border-box;
+}
 
-    .projects{
-      display:grid;
-      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-      gap:20px;
-    }
+/* LEFT SIDE */
+.header-left{
+  display:flex;
+  align-items:center;
+  gap:20px;
+  flex-wrap:wrap;
+}
 
-    .card{
-      background:#1e293b;
-      padding:15px;
-      border-radius:12px;
-      transition:0.3s;
-    }
+/* PROFILE IMAGE */
+.profile-img{
+  width:150px;
+  height:150px;
+  border-radius:50%;
+  object-fit:cover;
+  object-position:center;
+  border:4px solid #38bdf8;
+  flex-shrink:0;
+}
 
-    .card:hover{
-      transform:translateY(-5px);
-      background:#263449;
-    }
+/* TEXT BLOCK */
+.header-text{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  max-width:500px;
+}
 
-    .card img{
-      width:100%;
-      border-radius:10px;
-      margin-bottom:10px;
-    }
+.header-text h1{
+  margin:0;
+  font-size:42px;
+  line-height:1.2;
+}
 
-    .card h3{
-      margin:20px 0 10px;
-    }
+.header-text p{
+  margin:8px 0 0 0;
+  font-size:18px;
+  color:#cbd5e1;
+  line-height:1.4;
+}
 
-    .card p{
-      color:#cbd5e1;
-      font-size:16px;
-    }
+/* LINKS */
+.header-links{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  justify-content:flex-end;
+  text-align:right;
+  white-space:nowrap;
+}
 
-    .about{
-      background:#1e293b;
-      padding:20px;
-      border-radius:12px;
-    }
+/* GENERAL LINKS */
+a{
+  color:#38bdf8;
+  text-decoration:none;
+  font-weight:500;
+}
 
-    footer{
-      text-align:center;
-      padding:30px 20px;
-      color:#94a3b8;
-      background:#1e293b;
-      border-radius: 25px;
-      margin: 10px;
-      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
-    }
+a:hover{
+  text-decoration:underline;
+}
 
-    a{
-      color:#38bdf8;
-      text-decoration:none;
-    }
+/* SECTIONS */
+section{
+  padding:50px 20px;
+  max-width:1100px;
+  margin:auto;
+}
 
-    .skills{
-      background:#1e293b;
-      padding:15px;
-      border-radius:12px;
-    }
+/* HEADINGS */
+h2{
+  border-left:4px solid #38bdf8;
+  padding-left:10px;
+  margin-bottom:20px;
+}
 
-    ul{
-      list-style:none;
-      padding:0;
-    }
+/* PROJECT GRID */
+.projects{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:20px;
+}
 
-    ul li{
-      padding:6px 0;
-      color:#cbd5e1;
-    }
-  </style>
+/* CARDS */
+.card{
+  background:#1e293b;
+  padding:15px;
+  border-radius:12px;
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:translateY(-5px);
+  background:#263449;
+}
+
+.card img{
+  width:100%;
+  border-radius:10px;
+  margin-bottom:10px;
+}
+
+.card h3{
+  margin:20px 0 10px;
+}
+
+.card p{
+  color:#cbd5e1;
+  font-size:16px;
+}
+
+/* ABOUT BOX */
+.about{
+  background:#1e293b;
+  padding:20px;
+  border-radius:12px;
+}
+
+/* SKILLS */
+.skills{
+  background:#1e293b;
+  padding:15px;
+  border-radius:12px;
+}
+
+/* LIST */
+ul{
+  list-style:none;
+  padding:0;
+}
+
+ul li{
+  padding:6px 0;
+  color:#cbd5e1;
+}
+
+/* FOOTER */
+footer{
+  text-align:center;
+  padding:30px 20px;
+  color:#94a3b8;
+  background:#1e293b;
+  border-radius:25px;
+  margin:10px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+</style>
+
 </head>
 
 <body>
 
-<header style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:20px;">
+<header>
 
-  <div style="display:flex;align-items:center;gap:20px;">
+  <div class="header-left">
 
-    <img src="images/Markeita.jpeg" 
+    <img src="images/Markeita.jpeg"
          alt="Markeita Townsend"
-         style="width:160px;height:160px;
-         border-radius:50%;
-         object-fit:cover;
-         object-position:center;
-         border:4px solid #38bdf8;">
+         class="profile-img">
 
-    <div>
-      <h1 style="margin:0;">Markeita Townsend</h1>
-      <p style="margin:5px 0 0 0;">
+    <div class="header-text">
+      <h1>Markeita Townsend</h1>
+      <p>
         AI Data Specialist • Research Contributor • Game Development Contributor
       </p>
     </div>
 
   </div>
 
-  
-  <div style="text-align:right;">
+  <div class="header-links">
     <a href="https://github.com/Markeitatown" target="_blank">GitHub</a> |
     <a href="https://linkedin.com/in/markeita-townsend-18110a220" target="_blank">LinkedIn</a> |
     <a href="Markeita_Townsend_CV.pdf" target="_blank">Download CV</a>
