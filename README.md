@@ -116,7 +116,6 @@ Experienced in working independently while meeting deadlines and delivering prec
 ## Technologies & Tools
 
 - Godot Engine
-- HTML & CSS
 - Microsoft Office Suite
 - Data Analysis & Reporting Tools
 - AI Evaluation Platforms
